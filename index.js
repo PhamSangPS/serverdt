@@ -17,7 +17,7 @@ import cartRouter from './route/cart.route.js'
 const app = express()
 app.use(cors({
     credentials : true,
-    Access-Control-Allow-Origin: *
+    Origin: *
 }))
 app.use(express.json())
 app.use(cookieParser())
