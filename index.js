@@ -17,7 +17,7 @@ import cartRouter from './route/cart.route.js'
 const app = express()
 app.use(cors({
     credentials : true,
-    origin : https://www.dientromt.com/
+    origin : 'https://www.dientromt.com/'
 }))
 app.use(express.json())
 app.use(cookieParser())
